@@ -1,0 +1,16 @@
+{
+	"name": "tailwind-ray-v",
+	"version": "1.0.0",
+	"description": "Demo tailwind CSS",
+	"scripts": {
+		"start": "tailwindcss -i src/style.css -o build/css/style.css --watch"
+	},
+	"keywords": [],
+	"author": "origintypes",
+	"license": "ISC",
+	"devDependencies": {
+		"@tailwindcss/jit": "^0.1.18",
+		"postcss": "^8.4.35",
+		"tailwindcss": "^2.2.19"
+	}
+}
